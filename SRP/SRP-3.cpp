@@ -14,11 +14,7 @@ struct Journal
     : title{title}
   {
   }
-
   void add(const string& entry);
-
-  // persistence is a separate concern
-  void save(const string& filename);
 };
 
 void Journal::add(const string& entry)
