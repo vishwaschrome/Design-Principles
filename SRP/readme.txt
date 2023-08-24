@@ -1,3 +1,12 @@
+Description:
+
+Historically, the SRP has been described this way: A module should have one, and only one, reason to change.
+Software systems are changed to satisfy users and stakeholders. Those users and stakeholders are the "reason to change" that the principle is talking about. We can say the these users and stakeholders who are interest in change as actors.
+Now, SRP is "A module should be responsible to one, and only one, actor".
+
+
+Explanation of source code:
+
 SRP-1.cpp
 It has a Journal (Could be struct or class. In our case it is struct) and a simple method add, that adds entries into journal.
 
